@@ -1,5 +1,3 @@
-[![](https://jitpack.io/v/com.edibleday/teavm-gradle-plugin.svg)](https://jitpack.io/#com.edibleday/teavm-gradle-plugin)
-
 About
 =====
 
@@ -19,13 +17,10 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.edibleday:teavm-gradle-plugin:VERSION'
+        classpath 'com.github.renatoathaydes:teavm-gradle-plugin:master-SNAPSHOT'
     }
 }
 ```
-Replace VERSION with actual version of plugin. See [releases](https://github.com/edibleday/teavm-gradle-plugin/releases) for version list.
-
-You can also use git commit hash as version. Check [JitPack](https://jitpack.io/#com.edibleday/teavm-gradle-plugin) for list of hashes and build status.
 
 Apply plugin to project:
 ```
