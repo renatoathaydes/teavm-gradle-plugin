@@ -14,7 +14,6 @@ Add repositories and classpath in build script:
 ```
 buildscript {
     repositories {
-        mavenCentral()
         maven { url "https://jitpack.io" }
     }
 
